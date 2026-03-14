@@ -1,0 +1,46 @@
+/*
+Responsive Styles
+Breakpoints:
+
+Desktop > 1024px
+Tablet 768px – 1024px
+Mobile < 768px
+*/
+
+/* Tablet */
+
+@media (max-width:1024px){
+
+.audience-container{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+}
+
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.nav-links{
+display:none;
+}
+
+.audience-container{
+flex-direction:column;
+align-items:center;
+}
+
+.comparison-container{
+flex-direction:column;
+align-items:center;
+}
+
+.footer{
+flex-direction:column;
+text-align:center;
+gap:20px;
+}
+
+}

@@ -1,48 +1,128 @@
 body{
-font-family: Arial, sans-serif;
 margin:0;
-padding:0;
+font-family:Arial, sans-serif;
 }
+
+
+/* NAVBAR */
 
 .navbar{
 display:flex;
 justify-content:space-between;
-padding:20px;
-background:#111;
-color:white;
-}
-
-.nav-links{
-list-style:none;
-display:flex;
-gap:20px;
+align-items:center;
+padding:15px 40px;
+background:#ffffff;
+border-bottom:1px solid #eee;
 }
 
 .nav-links a{
-color:white;
+margin:0 10px;
 text-decoration:none;
+color:#333;
 }
 
+
+
+/* HERO */
+
 .hero{
-padding:80px;
 text-align:center;
+padding:100px 20px;
 background:#f4f4f4;
 }
 
-.modules{
-padding:50px;
+.hero-buttons button{
+margin:10px;
+padding:12px 20px;
+font-size:16px;
+}
+
+
+
+/* AUDIENCE */
+
+.audience{
+padding:60px 20px;
 text-align:center;
 }
 
-.module-grid{
-display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:20px;
+.audience-container{
+display:flex;
+gap:30px;
+justify-content:center;
 }
 
-.module-card{
+.audience-card{
+width:300px;
 background:white;
-padding:30px;
-border:1px solid #ddd;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.audience-card img{
+width:100%;
 border-radius:8px;
+}
+
+
+
+/* ABOUT */
+
+.about{
+padding:60px 20px;
+text-align:center;
+background:#fafafa;
+}
+
+
+
+/* COMPARISON */
+
+.comparison{
+padding:60px 20px;
+text-align:center;
+}
+
+.comparison-container{
+display:flex;
+gap:30px;
+justify-content:center;
+}
+
+.comparison-card{
+width:300px;
+padding:20px;
+border:1px solid #ddd;
+}
+
+.highlight{
+background:#f0f7ff;
+}
+
+
+
+/* CONTACT */
+
+.contact{
+padding:80px 20px;
+text-align:center;
+background:#f5f5f5;
+}
+
+.cta{
+padding:15px 30px;
+font-size:18px;
+}
+
+
+
+/* FOOTER */
+
+.footer{
+display:flex;
+justify-content:space-around;
+padding:40px;
+background:#222;
+color:white;
 }
