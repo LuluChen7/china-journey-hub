@@ -2,162 +2,175 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Title</title>
+    <title>Title</title>
 
-<link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
 
-<!-- Navbar -->
-<header class="navbar">
-<div class="logo">Logo</div>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Logo</div>
 
-<nav class="nav-links">
-<a href="#">Home</a>
-<a href="#">--</a>
-<a href="#">--</a>
-<a href="#">--</a>
-<a href="#">Contact</a>
-</nav>
+        <div class="nav-right">
+            <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu">
+            ☰
+            </button>
 
-<div class="auth">
-<a href="#">Register / Login</a>
-</div>
+            <nav class="nav-links" id="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#audience">Services</a>
+                <a href="#about">About</a>
+                <a href="#comparison">Comparison</a>
+                <a href="#contact">Contact</a>
+            </nav>
 
-<div class="language">
-PT | EN | ZH
-</div>
-</header>
+            <div class="auth">
+                <a href="#" class="signin-link">Sign in</a>
+            </div>
 
+            <div class="language-dropdown">
+                <button class="language-btn" id="language-btn" aria-label="Choose language">
+                    <span class="language-icon">🌐</span>
+                    <span id="current-language">English</span>
+                </button>
 
-<!-- Hero Section -->
-<section class="hero">
-
-<h1>Heading</h1>
-
-<p>
-Brief Intro
-</p>
-
-<div class="hero-buttons">
-<button class="primary">近期项目</button>
-<button class="secondary">WhatsApp</button>
-</div>
-
-</section>
+                <div class="language-menu" id="language-menu">
+                    <button class="language-option" data-lang="English">English</button>
+                    <button class="language-option" data-lang="Português">Português</button>
+                    <button class="language-option" data-lang="中文">中文</button>
+                </div>
+            </div>
+        </div>  
+    </header>
 
 
-<!-- Audience Section -->
-<section class="audience">
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Heading</h1>
 
-<h2>Heading 2</h2>
+            <p>
+            Brief Intro
+            </p>
 
-<div class="audience-container">
+            <div class="hero-buttons">
+                <button class="primary">近期项目</button>
+                <button class="secondary">WhatsApp</button>
+            </div>
+        </div>
+    </section>
 
-<div class="audience-card">
-<!-- <img src="assets/images/student.jpg"> -->
-<img src="https://via.placeholder.com/300x200">
-<h3>学生</h3>
-<p>Description for students.</p>
-</div>
+    <!-- Audience Section -->
+    <section class="audience" id="audience">
 
-<div class="audience-card">
-<img src="assets/images/university.jpg">
-<h3>校方</h3>
-<p>Description.</p>
-</div>
+        <h2>Heading 2</h2>
 
-<div class="audience-card">
-<img src="assets/images/sponsor.jpg">
-<h3>合作方</h3>
-<p>Description。</p>
-</div>
-
-</div>
-
-</section>
-
-
-<!-- About -->
-<section class="about">
-
-<h2>关于我们</h2>
-
-<p>
-Text
-</p>
-
-</section>
-
-
-<!-- Comparison -->
-<section class="comparison">
-
-<h2>我们 vs 其他机构</h2>
-
-<div class="comparison-container">
-
-<div class="comparison-card">
-<h3>他们</h3>
-<ul>
-<li>Text</li>
-<li>Text</li>
-<li>Text</li>
-</ul>
-</div>
-
-<div class="comparison-card highlight">
-<h3>我们</h3>
-<ul>
-<li>Text</li>
-<li>Text</li>
-<li>Text</li>
-</ul>
-</div>
-
-</div>
-
-</section>
+        <div class="audience-container">
+            <div class="audience-card">
+                <!-- <img src="assets/images/student.jpg"> -->
+                <img src="https://via.placeholder.com/400x220" alt="Students" />
+                <h3>学生</h3>
+                <p>Description for students.</p>
+            </div>
+            
+            <div class="audience-card">
+                <!--<img src="assets/images/university.jpg"> -->
+                <img src="https://via.placeholder.com/400x220" alt="Universities" />
+                <h3>校方</h3>
+                <p>Description.</p>
+            </div>
+            
+            <div class="audience-card">
+                <img src="https://via.placeholder.com/400x220" alt="Partners" />
+                <h3>合作方</h3>
+                <p>Description。</p>
+            </div>
+        </div>
+    </section>
 
 
-<!-- Contact -->
-<section class="contact">
-
-<h2>Text</h2>
-
-<button class="cta">开始报名来华项目</button>
-
-</section>
-
-
-<!-- Footer -->
-<footer class="footer">
-
-<div class="footer-logo">
-Logo
-</div>
-
-<div class="footer-social">
-<h4>Follow Us</h4>
-<p>Instagram | WhatsApp</p>
-</div>
-
-<div class="footer-contact">
-<h4>Contact Us</h4>
-<p>Email</p>
-<p>Phone</p>
-<p>WhatsApp</p>
-</div>
-
-</footer>
+    <!-- About -->
+    <section class="about" id="about">
+        <h2>关于我们</h2>
+        <p>
+            Text
+        </p>
+    </section>
 
 
-<script src="js/main.js"></script>
+    <!-- Comparison -->
+    <section class="comparison" id="comparison">
+        <h2>我们跟其他机构的比较</h2>
+        
+        <div class="comparison-container">
+
+            <div class="comparison-card">
+                <h3>他们</h3>
+                <ul>
+                    <li>Text</li>
+                    <li>Text</li>
+                    <li>Text</li>
+                </ul>
+            </div>
+
+            <div class="comparison-card highlight">
+                <h3>我们</h3>
+                <ul>
+                    <li>Text</li>
+                    <li>Text</li>
+                    <li>Text</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section class="contact" id ="contact">
+        <h2>Text</h2>
+        <p>
+            Text
+        </p>
+        
+        <button class="cta">开始报名来华项目</button>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class = "footer-column">
+            <div class="footer-logo"> Logo </div>
+            <p>Website Name</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Follow Us</h4>
+            <p>Instagram</p>
+            <p>WhatsApp</p>
+            <p>Xiaohongshu</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Contact Us</h4>
+            <p>Phone number</p>
+            <p>Email</p>
+            <p>WhatsApp</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="#" class="whatsapp-button" id="whatsapp-button" aria-label="Chat on WhatsApp">
+        WhatsApp
+    </a>
+
+    <script src="js/main.js"></script>
 
 </body>
 </html>
