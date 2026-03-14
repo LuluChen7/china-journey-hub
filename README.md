@@ -1,31 +1,39 @@
 # China Journey Hub
-A responsive bilingual tourism information website project focused on Brazil-to-China travel guidance.
 
-## Project Goal
-This project aims to build a modern, content-based website that organizes travel information for users interested in visiting China from Brazil. The website will include structured modules such as visa information, travel guides, study tour content, and business-related travel information.
+China Journey Hub is a travel and education information platform designed to connect Brazilian students, universities, and partners with opportunities in China.
 
-## Main Features
-- Responsive design for mobile and desktop
-- Bilingual structure (Chinese and Portuguese)
-- Article-based content organization
-- Social contact links (WhatsApp, Instagram, Xiaohongshu)
-- Modular page structure for future expansion
+## Project Purpose
+
+The website provides information about travel programs, study tours, and collaboration opportunities between Brazil and China.
+
+## Current Development Stage
+
+Phase 1 – Design  
+Phase 2 – Frontend Development (in progress)
 
 ## Tech Stack
+
+Frontend:
 - HTML
 - CSS
 - JavaScript
-- JSON
-- Git / GitHub
 
-## Project Status
-Planning phase
+Tools:
+- VS Code
+- GitHub
+- Figma
 
-## Planned Modules
-- Home
-- Visa Information
-- Travel Information
-- Study Tour Information
-- Business Information
-- About
-- Article Detail Page
+Deployment (planned):
+- Cloudflare Pages
+
+## Features (Current)
+
+- Homepage landing page
+- Information sections
+- Responsive design
+
+## Future Features
+
+- User registration and login
+- Backend API (Flask)
+- Database (PostgreSQL / SQLite)
