@@ -230,12 +230,12 @@ button:hover {
 /* ========= Hero ========= */
 
 .hero {
-  min-height: 85vh;
+  min-height: 90vh;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   text-align: center;
-  padding: 100px 20px;
+  padding: 200px 20px 0;
   background: linear-gradient(to bottom right, #f2f6fb, #e8eef7);
 }
 
@@ -255,9 +255,10 @@ button:hover {
 }
 
 .hero-buttons {
+  margin-top: 30px;
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
