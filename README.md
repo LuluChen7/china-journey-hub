@@ -1,39 +1,50 @@
 # China Journey Hub
 
-China Journey Hub is a travel and education information platform designed to connect Brazilian students, universities, and partners with opportunities in China.
+China Journey Hub is an informational website project designed for Chinese travel-related services targeting Brazilian users. The project brand name is **巴方来财**.
 
-## Project Purpose
+## Current Status
 
-The website provides information about travel programs, study tours, and collaboration opportunities between Brazil and China.
+The project is currently in the **Frontend Development** stage.
 
-## Current Development Stage
+Completed so far:
+- Project planning
+- Homepage wireframe
+- Navbar structure
+- Hero section
+- Services section
+- About section
+- Comparison section
+- Contact section
+- Footer
+- Basic responsive layout
+- Floating WhatsApp button
+- Language dropdown UI
 
-Phase 1 – Design  
-Phase 2 – Frontend Development (in progress)
+## Current MVP Scope
+
+The current MVP focuses on building a complete homepage landing page.
 
 ## Tech Stack
 
-Frontend:
 - HTML
 - CSS
 - JavaScript
-
-Tools:
+- Git / GitHub
 - VS Code
-- GitHub
-- Figma
 
-Deployment (planned):
+## Deployment Plan
+
 - Cloudflare Pages
 
-## Features (Current)
+## Planned Future Features
 
-- Homepage landing page
-- Information sections
-- Responsive design
+- Sign in / Register system
+- Backend with Flask
+- Database with PostgreSQL or SQLite
+- Real multilingual support
+- Dynamic content updates
+- Expanded page structure beyond homepage
 
-## Future Features
+## Notes
 
-- User registration and login
-- Backend API (Flask)
-- Database (PostgreSQL / SQLite)
+Some text, images, links, and final section content are still placeholders and will be updated after receiving client materials.
